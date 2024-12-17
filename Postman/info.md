@@ -36,6 +36,40 @@ This document provides a concise guide for setting up and working with Postman f
   - Universal compatibility across programming languages.
   - Human-readable structure.
 
+### JSON Syntax
+- **Structure**: JSON data is written as key-value pairs, enclosed in curly braces `{}`.
+  
+#### Example:
+```json
+{
+  "name": "John Doe",
+  "age": 30,
+  "email": "john.doe@example.com",
+  "isActive": true
+}
+```
+- **Data Types**:
+  - String: Text enclosed in double quotes (e.g., "example").
+  - Number: Integer or floating-point value (e.g., 25, 3.14).
+  - Boolean: `true` or `false` values.
+  - Array: Ordered list of values enclosed in square brackets `[]` (e.g., ["red", "green", "blue"]).
+  - Object: Nested JSON structure enclosed in curly braces `{}`.
+  - Null: Represents an empty or undefined value.
+
+### JSON in API Testing
+- **Request Payloads**: JSON is commonly used to send structured data in POST, PUT, or PATCH requests.
+- **Response Data**: APIs often return data in JSON format for easy parsing and readability.
+
+#### Example API Response:
+```json
+{
+  "id": 1,
+  "title": "Introduction to APIs",
+  "author": "Jane Doe",
+  "published": true
+}
+```
+
 ---
 
 ## <a name="hands-on-practice"></a> 4. Hands-On Practice with Postman
@@ -106,3 +140,4 @@ This document provides a concise guide for setting up and working with Postman f
 
 **Thank You!**  
 Continue exploring APIs by practicing with Postman and building projects.
+
