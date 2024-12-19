@@ -1,5 +1,3 @@
-# README  
-
 ## GDG SDMCET  
 **Event:** Devtools Decoded  
 
